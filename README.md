@@ -1,25 +1,60 @@
 # Customer Segmentation using K-Means Algorithm
 
+## Overview
+
+This project focuses on segmenting customers based on their behavior and demographic characteristics using the K-Means clustering algorithm. The segmentation helps businesses design targeted marketing strategies, improve customer satisfaction, and optimize resource allocation.
+
+---
+
 ## Objective
 
-The objective of this project is to segment customers based on their behavior and demographics, enabling more targeted marketing campaigns.
+- Segment customers into distinct groups based on their spending habits and demographic profiles.
+- Enable more precise and effective marketing campaigns.
+
+---
+
+## Dataset
+
+The dataset for this project is publicly available on Kaggle:  
+[Kaggle Dataset Link](https://www.kaggle.com/datasets/prasanna33/ecommerce-dataset)
+
+---
 
 ## Steps Taken
 
-### Data Preprocessing
+### 1. Data Preprocessing
+- Handled missing values to ensure data integrity.
+- Encoded categorical variables to make the data suitable for clustering algorithms.
 
-- **Cleaned and Prepared Dataset:** Handled missing values and encoded categorical variables to ensure the data was ready for analysis.
+### 2. Feature Selection
+- Identified and selected key features:
+  - Age
+  - Gender
+  - Annual Income
+  - Spending Score  
 
-### Feature Selection
+### 3. Clustering
+- Applied the **K-Means Clustering** algorithm to segment customers.
+- Used the **Elbow Method** to determine the optimal number of clusters.
 
-- **Key Features Selected:** Identified and selected important features such as age, gender, annual income, and spending score to use for clustering.
+### 4. Visualization
+- Visualized clusters to interpret the characteristics of each segment.
+- Created insightful visualizations to understand:
+  - Spending patterns
+  - Gender-wise distribution across clusters
 
-### Clustering
+---
 
-- **K-Means Clustering:** Applied K-Means clustering to segment customers into distinct groups.
-- **Optimal Clusters Determination:** Used the Elbow method to determine the optimal number of clusters for effective segmentation.
+## Kaggle Notebook
 
-### Visualization
+You can view the complete implementation and analysis in the Kaggle notebook:  
+[Kaggle Notebook Link](https://www.kaggle.com/code/varshithpsingh/customer-segmentation-using-k-means)
 
-- **Cluster Visualization:** Visualized the clusters to interpret the characteristics of each segment.
-- **Insights:** Created visualizations of gender-wise distributions and spending patterns to gain deeper insights into customer segments.
+---
+
+## Insights and Results
+
+- Successfully segmented customers into distinct groups based on spending behavior and demographics.
+- Visualizations provided a deeper understanding of customer clusters, enabling personalized marketing strategies.
+
+---
